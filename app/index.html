@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<title>커피한잔 고?</title>
+<title>Coffee Pick</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no, maximum-scale=1">
 <meta name="theme-color" content="#ff5e87">
-<meta name="description" content="여러 명이 손가락을 올리면 한 명을 뽑아주는 술자리/모임용 결정 게임">
+<meta name="description" content="A party decision game — everyone puts a finger on the screen and one person gets picked.">
 
 <!-- Google Tag Manager -->
 <script>
@@ -46,7 +46,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="커피한잔 고?">
+<meta name="apple-mobile-web-app-title" content="Coffee Pick">
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -158,10 +158,10 @@ const THEME_PREVIEW_BG = {
 };
 
 const THEMES = [
-  { id: 'pop',    name: 'POP 컨페티',   sub: '쨍한 그라데이션 · 두꺼운 링' },
-  { id: 'neon',   name: 'NEON 사이버',  sub: '다크 · 네온 글로우' },
-  { id: 'glass',  name: 'AURORA 글래스', sub: '오로라 · 반투명' },
-  { id: 'kawaii', name: 'KAWAII 스티커', sub: '파스텔 · 귀여운 표정' },
+  { id: 'pop',    name: 'POP Confetti',  sub: 'Vivid gradient · chunky rings' },
+  { id: 'neon',   name: 'NEON Cyber',    sub: 'Dark · neon glow' },
+  { id: 'glass',  name: 'AURORA Glass',  sub: 'Aurora · translucent' },
+  { id: 'kawaii', name: 'KAWAII Sticker', sub: 'Pastel · cute faces' },
 ];
 
 // ── Mini live preview swatch per theme (using accent colors) ──
@@ -193,7 +193,7 @@ function SettingsButton({ onClick, variant }) {
   const isDark = variant === 'neon';
   return (
     <button
-      aria-label="설정"
+      aria-label="Settings"
       onPointerDown={(e) => e.stopPropagation()}
       onPointerUp={(e) => e.stopPropagation()}
       onClick={(e) => { e.stopPropagation(); onClick(); }}
@@ -252,16 +252,16 @@ function SettingsSheet({ variant, onChange, onClose, installPrompt, onInstall })
         }} />
 
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 22 }}>
-          <h2 style={{ margin: 0, fontSize: 26, fontWeight: 800, letterSpacing: -0.5 }}>설정</h2>
+          <h2 style={{ margin: 0, fontSize: 26, fontWeight: 800, letterSpacing: -0.5 }}>Settings</h2>
           <button onClick={onClose} style={{
             background: 'transparent', border: 'none', color: '#1a0033',
             fontSize: 14, fontWeight: 600, cursor: 'pointer', padding: '6px 4px',
-          }}>닫기</button>
+          }}>Close</button>
         </div>
 
         <div style={{ marginBottom: 24 }}>
           <div style={{ fontSize: 12, letterSpacing: 2, opacity: 0.55, textTransform: 'uppercase',
-            fontFamily: '"JetBrains Mono", monospace', marginBottom: 12 }}>테마</div>
+            fontFamily: '"JetBrains Mono", monospace', marginBottom: 12 }}>THEME</div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
             {THEMES.map(t => {
@@ -314,12 +314,12 @@ function SettingsSheet({ variant, onChange, onClose, installPrompt, onInstall })
             cursor: 'pointer', marginBottom: 14,
             boxShadow: '0 6px 18px rgba(255,94,135,.45)',
             letterSpacing: -0.2,
-          }}>📲 홈 화면에 추가</button>
+          }}>📲 Add to Home Screen</button>
         )}
 
         <div style={{ fontSize: 11, opacity: 0.45, textAlign: 'center', marginTop: 10,
           fontFamily: '"JetBrains Mono", monospace', letterSpacing: 1 }}>
-          커피한잔 고? · v1.0
+          Coffee Pick · v1.0
         </div>
       </div>
     </>

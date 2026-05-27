@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">커피한잔 고?</string>
-    <string name="title_activity_main">커피한잔 고?</string>
+    <string name="app_name">Coffee Pick</string>
+    <string name="title_activity_main">Coffee Pick</string>
     <string name="package_name">com.coffee.pick</string>
     <string name="custom_url_scheme">com.coffee.pick</string>
 </resources>

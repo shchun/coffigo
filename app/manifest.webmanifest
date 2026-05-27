@@ -1,7 +1,7 @@
 {
-  "name": "커피한잔 고?",
-  "short_name": "커피한잔고?",
-  "description": "여러 명이 손가락을 올리면 한 명을 뽑아주는 술자리/모임용 결정 게임",
+  "name": "Coffee Pick",
+  "short_name": "Coffee Pick",
+  "description": "A party decision game — everyone puts a finger on the screen and one person gets picked.",
   "start_url": "./",
   "scope": "./",
   "display": "fullscreen",
@@ -9,7 +9,7 @@
   "orientation": "portrait",
   "background_color": "#ff5e87",
   "theme_color": "#ff5e87",
-  "lang": "ko",
+  "lang": "en",
   "categories": ["games", "entertainment", "utilities"],
   "icons": [
     {

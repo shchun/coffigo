@@ -10,12 +10,12 @@ const { useState, useEffect, useRef, useCallback, useMemo } = React;
 const TS_VARIANTS = {
   neon: {
     name: 'NEON',
-    label: '네온 사이버',
+    label: 'Neon Cyber',
     tagline: '// TAP TO ENTER',
-    cta: '손가락을 올려라',
+    cta: 'PLACE YOUR FINGERS',
     countLabel: 'PLAYERS',
     winnerLabel: 'WINNER',
-    resetHint: '아무 곳이나 탭하여 다시 시작',
+    resetHint: 'TAP ANYWHERE TO RESTART',
     bg: 'radial-gradient(ellipse 70% 50% at 25% 15%, rgba(255,0,212,.22), transparent 70%),' +
         'radial-gradient(ellipse 80% 60% at 80% 90%, rgba(0,255,234,.22), transparent 70%),' +
         'linear-gradient(180deg, #0a0020 0%, #04000f 100%)',
@@ -30,12 +30,12 @@ const TS_VARIANTS = {
   },
   pop: {
     name: 'POP',
-    label: '팝 컨페티',
+    label: 'Pop Confetti',
     tagline: '✦ FRIENDS NIGHT ✦',
-    cta: '손가락을 모아!',
-    countLabel: '플레이어',
-    winnerLabel: '당첨',
-    resetHint: '탭하여 한 판 더',
+    cta: 'Fingers in!',
+    countLabel: 'PLAYERS',
+    winnerLabel: 'WINNER',
+    resetHint: 'Tap for another round',
     bg: 'radial-gradient(circle at 20% 10%, #ff6fa0 0%, transparent 50%),' +
         'radial-gradient(circle at 90% 90%, #ffd166 0%, transparent 55%),' +
         'linear-gradient(140deg, #ff5e87 0%, #ff9a3d 50%, #ffd14a 100%)',
@@ -50,7 +50,7 @@ const TS_VARIANTS = {
   },
   glass: {
     name: 'AURORA',
-    label: '오로라 글래스',
+    label: 'Aurora Glass',
     tagline: '· · · GATHER · · ·',
     cta: 'place your fingers',
     countLabel: 'fingers',
@@ -68,12 +68,12 @@ const TS_VARIANTS = {
   },
   kawaii: {
     name: 'KAWAII',
-    label: '카와이 스티커',
-    tagline: '★ 누가 걸릴까 ★',
-    cta: '손가락 올려놓기',
-    countLabel: '친구들',
-    winnerLabel: '당첨!!',
-    resetHint: '한 번 더 ♥',
+    label: 'Kawaii Sticker',
+    tagline: '★ WHO WILL IT BE ★',
+    cta: 'Place your fingers',
+    countLabel: 'friends',
+    winnerLabel: 'WINNER!!',
+    resetHint: 'One more ♥',
     bg: 'radial-gradient(circle at 50% 0%, #ffe4ec 0%, #f0d9ff 55%, #d9efff 100%)',
     fg: '#3d1a3d',
     accent: '#ff5da8',
