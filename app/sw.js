@@ -1,7 +1,7 @@
-// sw.js — basic offline cache for Coffee Pick
+// sw.js — basic offline cache for Coffigo
 // Cache-first for our own assets, network-first for everything else.
 
-const CACHE = 'coffee-pick-v8';
+const CACHE = 'coffigo-v9';
 const ASSETS = [
   './',
   './index.html',

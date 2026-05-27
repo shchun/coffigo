@@ -1,4 +1,4 @@
-# 커피한잔 고? — APK 빌드 가이드
+# Coffigo — APK 빌드 가이드
 
 여러 명이 손가락을 올리면 카운트다운 후 한 명을 뽑아주는 결정 게임입니다.
 이 폴더(`app/`)는 **PWA**로 동작하면서 그대로 **APK**로 변환할 수 있도록 구성돼 있어요.
@@ -33,7 +33,7 @@ PWA → APK 변환은 **공개 HTTPS URL**이 필요합니다.
 ## 2단계 (가장 쉬움) — PWABuilder로 APK 만들기
 
 1. https://www.pwabuilder.com 접속
-2. PWA URL 입력 (예: `https://yourname.github.io/coffeepick/`)
+2. PWA URL 입력 (예: `https://yourname.github.io/coffigo/`)
 3. "Package For Stores" → **Android** 선택
 4. 옵션 그대로 두고 **Generate Package** → ZIP 다운로드
 5. ZIP 안에 `app-release-signed.apk` 가 들어 있음
@@ -45,10 +45,10 @@ PWA → APK 변환은 **공개 HTTPS URL**이 필요합니다.
 WebView로 HTML을 감싸 완전한 네이티브 APK를 만들고 싶다면:
 
 ```bash
-mkdir coffeepick-native && cd coffeepick-native
+mkdir coffigo-native && cd coffigo-native
 npm init -y
 npm i @capacitor/core @capacitor/cli @capacitor/android
-npx cap init "커피한잔 고?" "com.yourname.coffeepick" --web-dir=www
+npx cap init "Coffigo" "com.coffigo.app" --web-dir=www
 mkdir www && cp -R ../app/* www/
 npx cap add android
 npx cap sync

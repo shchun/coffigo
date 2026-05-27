@@ -1,4 +1,4 @@
-package com.coffee.pick;
+package com.coffigo.app;
 
 import android.os.Bundle;
 

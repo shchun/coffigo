@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Coffee Pick</title>
+<title>Coffigo</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no, maximum-scale=1">
 <meta name="theme-color" content="#ff5e87">
 <meta name="description" content="A party decision game — everyone puts a finger on the screen and one person gets picked.">
@@ -46,7 +46,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Coffee Pick">
+<meta name="apple-mobile-web-app-title" content="Coffigo">
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -319,7 +319,7 @@ function SettingsSheet({ variant, onChange, onClose, installPrompt, onInstall })
 
         <div style={{ fontSize: 11, opacity: 0.45, textAlign: 'center', marginTop: 10,
           fontFamily: '"JetBrains Mono", monospace', letterSpacing: 1 }}>
-          Coffee Pick · v1.0
+          Coffigo · v1.0
         </div>
       </div>
     </>
@@ -328,7 +328,7 @@ function SettingsSheet({ variant, onChange, onClose, installPrompt, onInstall })
 
 function App() {
   const [variant, setVariant] = useState(() => {
-    try { return localStorage.getItem('coffeepick.variant') || 'pop'; }
+    try { return localStorage.getItem('coffigo.variant') || 'pop'; }
     catch { return 'pop'; }
   });
   const [settingsOpen, setSettingsOpen] = useState(false);
@@ -337,7 +337,7 @@ function App() {
 
   // Persist + sync theme-color meta
   useEffect(() => {
-    try { localStorage.setItem('coffeepick.variant', variant); } catch {}
+    try { localStorage.setItem('coffigo.variant', variant); } catch {}
     const meta = document.querySelector('meta[name="theme-color"]');
     if (meta) meta.content = THEME_COLOR[variant];
     document.body.style.background = THEME_COLOR[variant];

@@ -1,6 +1,6 @@
 {
-  "name": "Coffee Pick",
-  "short_name": "Coffee Pick",
+  "name": "Coffigo",
+  "short_name": "Coffigo",
   "description": "A party decision game — everyone puts a finger on the screen and one person gets picked.",
   "start_url": "./",
   "scope": "./",

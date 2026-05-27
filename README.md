@@ -2,7 +2,7 @@
 
 <img src="app/icon.svg" width="120" alt="App icon">
 
-# 커피한잔 고? ☕
+# Coffigo ☕
 
 여러 명이 손가락을 올리면 카운트다운 후 한 명을 랜덤으로 뽑아주는 안드로이드 결정 게임.<br/>
 술자리 / 모임에서 "오늘 누가 사?", "심부름 누가 갈래?" 같은 거 정할 때 쓰세요.
@@ -39,8 +39,8 @@ PWA + Capacitor 조합. HTML/JavaScript/React 로 작성 → Capacitor로 안드
 ## 직접 빌드하기
 
 ```bash
-git clone https://github.com/shchun/coffee-pick.git
-cd coffee-pick
+git clone https://github.com/shchun/coffigo.git
+cd coffigo
 npm install
 npx cap sync
 npx cap open android
