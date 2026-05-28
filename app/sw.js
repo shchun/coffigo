@@ -1,7 +1,7 @@
 // sw.js — basic offline cache for Coffigo
 // Cache-first for our own assets, network-first for everything else.
 
-const CACHE = 'coffigo-v9';
+const CACHE = 'coffigo-v10';
 const ASSETS = [
   './',
   './index.html',

@@ -1,39 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
-  
   <defs>
     <radialGradient id="glow" cx="50%" cy="50%">
       <stop offset="0%" stop-color="#fff" stop-opacity=".4"></stop>
       <stop offset="100%" stop-color="#fff" stop-opacity="0"></stop>
     </radialGradient>
+    <radialGradient id="bokeh" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".5"></stop>
+      <stop offset="60%" stop-color="#fff" stop-opacity=".12"></stop>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"></stop>
+    </radialGradient>
   </defs>
 
-  
+  <circle cx="780" cy="280" r="280" fill="url(#bokeh)"></circle>
+  <circle cx="240" cy="760" r="220" fill="url(#bokeh)"></circle>
+
   <circle cx="512" cy="512" r="320" fill="url(#glow)"></circle>
 
-  
   <circle cx="512" cy="512" r="200" fill="none" stroke="#fff" stroke-width="62"></circle>
 
-  
   <ellipse cx="512" cy="740" rx="180" ry="18" fill="#000" opacity=".12"></ellipse>
 
-  
   <circle cx="512" cy="512" r="98" fill="#ff2e63"></circle>
   <circle cx="488" cy="488" r="24" fill="#fff" opacity=".55"></circle>
-
-  
-  <g>
-    <rect x="746" y="280" width="22" height="60" rx="5" fill="#7a3cff" transform="rotate(28 757 310)"></rect>
-    <circle cx="800" cy="340" r="14" fill="#06d6a0"></circle>
-    <rect x="710" y="320" width="32" height="32" rx="6" fill="#fff" transform="rotate(15 726 336)"></rect>
-
-    <rect x="262" y="288" width="22" height="56" rx="5" fill="#118ab2" transform="rotate(-25 273 316)"></rect>
-    <circle cx="310" cy="260" r="14" fill="#3a0ca3"></circle>
-    <rect x="220" y="370" width="22" height="60" rx="5" fill="#fff" transform="rotate(40 231 400)"></rect>
-
-    <circle cx="280" cy="700" r="16" fill="#7a3cff"></circle>
-    <rect x="232" y="700" width="32" height="32" rx="6" fill="#fff" transform="rotate(30 248 716)"></rect>
-
-    <rect x="746" y="660" width="22" height="58" rx="5" fill="#06d6a0" transform="rotate(-30 757 689)"></rect>
-    <circle cx="788" cy="704" r="16" fill="#ff2e63"></circle>
-  </g>
 </svg>

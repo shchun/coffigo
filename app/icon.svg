@@ -9,47 +9,24 @@
       <stop offset="0%" stop-color="#fff" stop-opacity=".4"></stop>
       <stop offset="100%" stop-color="#fff" stop-opacity="0"></stop>
     </radialGradient>
+    <radialGradient id="bokeh" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".5"></stop>
+      <stop offset="60%" stop-color="#fff" stop-opacity=".12"></stop>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"></stop>
+    </radialGradient>
   </defs>
 
-  
   <rect width="512" height="512" rx="115" fill="url(#popbg)"></rect>
 
-  
+  <circle cx="390" cy="140" r="140" fill="url(#bokeh)"></circle>
+  <circle cx="120" cy="380" r="110" fill="url(#bokeh)"></circle>
+
   <circle cx="256" cy="256" r="180" fill="url(#glow)"></circle>
 
-  
   <circle cx="256" cy="256" r="118" fill="none" stroke="#fff" stroke-width="34"></circle>
-  
+
   <ellipse cx="256" cy="392" rx="100" ry="10" fill="#000" opacity=".12"></ellipse>
 
-  
   <circle cx="256" cy="256" r="56" fill="#ff2e63" style="filter: drop-shadow(0 4px 0 rgba(0,0,0,.15));"></circle>
   <circle cx="244" cy="244" r="14" fill="#fff" opacity=".55"></circle>
-
-  
-  <g>
-    
-    <rect x="400" y="60" width="14" height="42" rx="3" fill="#7a3cff" transform="rotate(28 407 81)"></rect>
-    <circle cx="436" cy="128" r="10" fill="#06d6a0"></circle>
-    <rect x="368" y="118" width="22" height="22" rx="4" fill="#fff" transform="rotate(15 379 129)"></rect>
-    <circle cx="350" cy="58" r="7" fill="#fff"></circle>
-
-    
-    <rect x="80" y="90" width="14" height="36" rx="3" fill="#118ab2" transform="rotate(-25 87 108)"></rect>
-    <circle cx="120" cy="70" r="8" fill="#3a0ca3"></circle>
-    <rect x="58" y="160" width="14" height="40" rx="3" fill="#fff" transform="rotate(40 65 180)"></rect>
-    <circle cx="150" cy="140" r="6" fill="#ff2e63"></circle>
-
-    
-    <circle cx="105" cy="395" r="9" fill="#7a3cff"></circle>
-    <rect x="60" y="430" width="20" height="20" rx="4" fill="#fff" transform="rotate(30 70 440)"></rect>
-    <rect x="130" y="450" width="14" height="32" rx="3" fill="#06d6a0" transform="rotate(-20 137 466)"></rect>
-    <circle cx="60" cy="320" r="6" fill="#fff"></circle>
-
-    
-    <rect x="420" y="380" width="14" height="38" rx="3" fill="#06d6a0" transform="rotate(-30 427 399)"></rect>
-    <circle cx="442" cy="438" r="11" fill="#ff2e63"></circle>
-    <rect x="378" y="438" width="14" height="32" rx="3" fill="#118ab2" transform="rotate(20 385 454)"></rect>
-    <circle cx="450" cy="320" r="6" fill="#fff"></circle>
-  </g>
 </svg>

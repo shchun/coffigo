@@ -9,38 +9,24 @@
       <stop offset="0%" stop-color="#fff" stop-opacity=".4"></stop>
       <stop offset="100%" stop-color="#fff" stop-opacity="0"></stop>
     </radialGradient>
+    <radialGradient id="bokeh" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".5"></stop>
+      <stop offset="60%" stop-color="#fff" stop-opacity=".12"></stop>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"></stop>
+    </radialGradient>
   </defs>
 
-  
   <rect width="1024" height="1024" fill="url(#popbg)"></rect>
 
-  
+  <circle cx="780" cy="280" r="280" fill="url(#bokeh)"></circle>
+  <circle cx="240" cy="760" r="220" fill="url(#bokeh)"></circle>
+
   <circle cx="512" cy="512" r="360" fill="url(#glow)"></circle>
 
-  
   <circle cx="512" cy="512" r="200" fill="none" stroke="#fff" stroke-width="62"></circle>
 
-  
   <ellipse cx="512" cy="752" rx="180" ry="18" fill="#000" opacity=".12"></ellipse>
 
-  
   <circle cx="512" cy="512" r="98" fill="#ff2e63"></circle>
   <circle cx="488" cy="488" r="24" fill="#fff" opacity=".55"></circle>
-
-  
-  <g>
-    <rect x="760" y="200" width="24" height="68" rx="5" fill="#7a3cff" transform="rotate(28 772 234)"></rect>
-    <circle cx="822" cy="296" r="16" fill="#06d6a0"></circle>
-    <rect x="710" y="250" width="36" height="36" rx="6" fill="#fff" transform="rotate(15 728 268)"></rect>
-
-    <rect x="220" y="220" width="24" height="64" rx="5" fill="#118ab2" transform="rotate(-25 232 252)"></rect>
-    <circle cx="284" cy="180" r="14" fill="#3a0ca3"></circle>
-    <rect x="170" y="330" width="24" height="64" rx="5" fill="#fff" transform="rotate(40 182 362)"></rect>
-
-    <circle cx="226" cy="788" r="16" fill="#7a3cff"></circle>
-    <rect x="170" y="800" width="36" height="36" rx="6" fill="#fff" transform="rotate(30 188 818)"></rect>
-
-    <rect x="780" y="740" width="24" height="62" rx="5" fill="#06d6a0" transform="rotate(-30 792 771)"></rect>
-    <circle cx="820" cy="810" r="18" fill="#ff2e63"></circle>
-  </g>
 </svg>
